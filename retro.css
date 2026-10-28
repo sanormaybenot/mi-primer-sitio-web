@@ -1,22 +1,17 @@
-/* Tema Vintage / Cálido */
+/* Fuente general para todo el cuerpo del documento */
 body {
-    font-family: Georgia, 'Times New Roman', serif;
-    background-color: #fbff00;
-    color: #283618;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8fafc;
+    color: #334155;
     max-width: 650px;
     margin: 40px auto;
-    padding: 25px;
+    padding: 20px;
 }
 
-h1 {
-    color: #bc6c25;
-    text-align: center;
-}
-
-h2 {
-    color: #606c38;
-    border-bottom: 2px dashed #bc6c25;
-    padding-bottom: 6px;
+/* Fuente específica para dar jerarquía a los títulos */
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #0284c7;
 }
 
 ul, .card {
